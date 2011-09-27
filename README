@@ -1,0 +1,10 @@
+A Growl-like notification library. It's a bit different to most others
+around, because:
+
+* Only one message at a time. If you show another one, it displaces the current one.
+  This avoids an ugly list of messages down the side.
+* Messages auto-disappear, but you can also close them programmatically.
+  Good for loading status.
+
+Implementation is in CoffeeScript. For now, install CoffeeScript and
+"coffee src/index.coffee" to build it.

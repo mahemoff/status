@@ -1,0 +1,35 @@
+.status {
+  font-family: helvetica, arial, sans-serif;
+  position: absolute;
+  padding: 10px 20px;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 12px;
+  background: #000;
+  border-radius: 0 0 0 5px;
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  -o-border-radius: 0 0 0 5px;
+  -msie-border-radius: 0 0 0 5px;
+  text-shadow: 0 0 5px #888;
+  -webkit-text-shadow: 0 0 5px #888;
+  -moz-text-shadow: 0 0 5px #888;
+  -o-text-shadow: 0 0 5px #888;
+  -msie-text-shadow: 0 0 5px #888;
+  display: none;
+  font-weight: bold;
+}
+
+.progress {
+  background-image: url('progress16.gif');
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  padding-left: 26px;
+}
+
+.error {
+  color: #fff;
+  background-color: #f00;
+  text-shadow: 0;
+}

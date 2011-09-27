@@ -1,0 +1,18 @@
+<link type='text/css' rel='stylesheet' href='../status.css'></link>
+<script src='jquery.min.js'></script>
+<script src='../src/status.coffee' type='text/coffeescript'></script>
+<script type='text/coffeescript'>
+$ ->
+  console.log $.status.options
+  $.status.options = fadeTime: 8000
+  $('.showMessage').click -> $.status.html 'hello'
+  $('.showError').click -> $.status.html 'uh oh something went wrong!', error: true
+  $('.showProgress').click -> $.status.html 'loading something fantastic', progress: true
+  $('.clear').click -> $.status.empty()
+</script>
+<script src='coffee-script.js'></script>
+
+<button class='showMessage'>show message</button>
+<button class='showError'>show error</button>
+<button class='showProgress'>show progress</button>
+<button class='clear'>clear</button>
