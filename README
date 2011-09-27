@@ -1,5 +1,6 @@
-A Growl-like notification library. It's a bit different to most others
-around, because:
+A Growl-like notification library. Try it with start.sh.
+
+It's a bit different to most others around, because:
 
 * Only one message at a time. If you show another one, it displaces the current one.
   This avoids an ugly list of messages down the side.
